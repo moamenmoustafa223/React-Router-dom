@@ -1,0 +1,16 @@
+.portfolio-layer{
+    background-color: #1ABC9C;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all .4s;
+}
+.portfolio-card{
+
+cursor: pointer;
+}
+.portfolio-card:hover .portfolio-layer{
+    opacity: .8;
+}
